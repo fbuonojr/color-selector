@@ -1,12 +1,10 @@
-# Project Name
+# Correct Color Selector Game
 
-#### Technologies used: 
+#### Technologies used: HTML, CSS, Bootstrap, JavaScript, jQuery
 
 This application does . . . . .
 
-How to use
-
-* link to deployed application:
+* link to deployed application: https://fbuonojr.github.io/color-selector/
 
 ![](./images/)
 
