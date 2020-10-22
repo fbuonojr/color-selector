@@ -72,4 +72,11 @@ $(document).ready(function(){
         randColor();
         createColorPicker();
     }
+
+    //get id of element clicked by user
+    $("color-picker").click(function(event) {
+        userAnswer = event.target.id;
+
+        //compare to see if correct
+    })
 });
