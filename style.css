@@ -9,4 +9,9 @@ body {
 
 .top {
     color: white;
+    font-size: 20px;
+}
+
+#title {
+    font-size: 50px;
 }
