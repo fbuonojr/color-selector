@@ -74,9 +74,20 @@ $(document).ready(function(){
     }
 
     //get id of element clicked by user
-    $("color-picker").click(function(event) {
+    $("#color-picker").click(function(event) {
         userAnswer = event.target.id;
 
         //compare to see if correct
-    })
+        if(userAnswer === targetColorOfText) {
+            alert("You win!");
+            reset();
+        }
+        else {
+            alert("Wrong!");
+            reset();
+        }
+    });
+
+    //calling reset() runs game
+    reset();
 });
