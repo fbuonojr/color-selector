@@ -41,5 +41,23 @@ $(document).ready(function(){
         for (var i = 0; i < colors.length; i++){
             colorsOfText.push(colors[i]);
         }
+
+        //shuffle text color array
+        colorsOfText.sort(function() {
+            return 0.5 - Math.random();
+        });
+
+        //for loop to create elements in document
+        for(var i = 0; i < colors.length; i++){
+
+            var holder = document.createElement("li");
+            $("#color-picker").append(holder);
+
+            $(holder).attr("id", colors[i]).text(colors[i]);
+
+            $(holder).css("color", colorsOfText[i]);
+        }
     }
+
+    
 });
