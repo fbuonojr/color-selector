@@ -2,7 +2,7 @@
 
 #### Technologies used: HTML, CSS, Bootstrap, JavaScript, jQuery
 
-This application does . . . . .
+This application is a tricky game where you need to select the correct randomly generated color.
 
 * link to deployed application: https://fbuonojr.github.io/color-selector/
 
