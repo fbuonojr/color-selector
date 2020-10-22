@@ -65,4 +65,11 @@ $(document).ready(function(){
         $("#color-picker").empty();
         colorsOfText = [];
     }
+
+    //this function resets colors and sets new colors
+    function reset() {
+        clear();
+        randColor();
+        createColorPicker();
+    }
 });
