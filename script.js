@@ -59,5 +59,10 @@ $(document).ready(function(){
         }
     }
 
-    
+    //this function clears divs and arrays each round
+    function clear() {
+        $("#rand-target-color").empty();
+        $("#color-picker").empty();
+        colorsOfText = [];
+    }
 });
