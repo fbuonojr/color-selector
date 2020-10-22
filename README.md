@@ -6,6 +6,6 @@ This application is a tricky game where you need to select the correct randomly 
 
 * link to deployed application: https://fbuonojr.github.io/color-selector/
 
-![](./images/)
+![](./images/colorselector.PNG)
 
 ###### Frank Buono- this app was created as practice using an activity from my bootcamp class
